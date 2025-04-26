@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA | Creative Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-text">
+                <span>N</span>
+                <span>O</span>
+                <span>V</span>
+                <span>A</span>
+            </div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+            <div class="preloader-shapes">
+                <div class="preloader-shape"></div>
+                <div class="preloader-shape"></div>
+                <div class="preloader-shape"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <div class="menu-btn">
+        <div class="menu-btn__lines"></div>
+    </div>
+
+    <div class="sidebar">
+        <div class="logo">NOVA</div>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <section id="home" class="hero">
+            <div class="parallax-bg"></div>
+            <div class="hero-content">
+                <h1 class="glitch" data-text="CREATIVE INNOVATIONS">CREATIVE<br>INNOVATIONS</h1>
+                <p class="subtitle">DESIGN × DEVELOPMENT × 2024</p>
+                <div class="hero-scroll">
+                    <div class="scroll-line"></div>
+                    <span class="scroll-text">SCROLL DOWN</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-shapes">
+                    <div class="shape shape-1" data-speed="0.1"></div>
+                    <div class="shape shape-2" data-speed="-0.2"></div>
+                    <div class="shape shape-3" data-speed="0.15"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>ABOUT US</h2>
+                    <p class="large-text">We create digital projects that matter</p>
+                    <p class="description">Combining innovative design with cutting-edge technology to achieve exceptional results. Our approach is based on understanding your unique needs and transforming them into effective digital solutions.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">YEARS OF EXPERIENCE</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">COMPLETED PROJECTS</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">SATISFIED CLIENTS</span>
+                    </div>
+                </div>
+                <div class="about-services">
+                    <div class="service-item">
+                        <h3>01 / DESIGN</h3>
+                        <p>UI/UX Design<br>Brand Identity<br>Motion Design</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>02 / DEVELOPMENT</h3>
+                        <p>Web Applications<br>Mobile Applications<br>E-commerce</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>03 / STRATEGY</h3>
+                        <p>Digital Strategy<br>Marketing<br>Consulting</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="reveal">OUR WORKS</h2>
+            <p class="projects-hint">HOVER OR TAP TO VIEW DETAILS</p>
+            <div class="projects-container">
+                <div class="project-card reveal" data-tilt>
+                    <div class="project-image" style="background-image: url('images/projects/project1.jpg')">
+                        <div class="project-overlay">
+                            <div class="project-category">WEB DEVELOPMENT</div>
+                            <h3>Modern E-commerce Platform</h3>
+                            <p>Full-featured online store with modern design and responsive interface</p>
+                            <div class="project-details">
+                                <div class="project-tech">
+                                    <span data-tech="React">React</span>
+                                    <span data-tech="Next.js">Next.js</span>
+                                    <span data-tech="Stripe">Stripe</span>
+                                    <span data-tech="MongoDB">MongoDB</span>
+                                </div>
+                                <a href="#" class="project-link">
+                                    DETAILS
+                                    <svg width="16" height="16" viewBox="0 0 16 16">
+                                        <path d="M14 2v12H2V2h12m0-2H2C0.9 0 0 0.9 0 2v12c0 1.1 0.9 2 2 2h12c1.1 0 2-0.9 2-2V2c0-1.1-0.9-2-2-2z"/>
+                                        <path d="M6.7 11.7L6 11l3.3-3.3L6 4.3 6.7 3.6l4 4-4 4.1z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-tilt>
+                    <div class="project-image" style="background-image: url('images/projects/project2.jpg')">
+                        <div class="project-overlay">
+                            <div class="project-category">AI & ML</div>
+                            <h3>AI Image Generator</h3>
+                            <p>Neural network for image generation using Stable Diffusion with custom settings</p>
+                            <div class="project-details">
+                                <div class="project-tech">
+                                    <span data-tech="Python">Python</span>
+                                    <span data-tech="PyTorch">PyTorch</span>
+                                    <span data-tech="FastAPI">FastAPI</span>
+                                    <span data-tech="React">React</span>
+                                </div>
+                                <a href="#" class="project-link">
+                                    DETAILS
+                                    <svg width="16" height="16" viewBox="0 0 16 16">
+                                        <path d="M14 2v12H2V2h12m0-2H2C0.9 0 0 0.9 0 2v12c0 1.1 0.9 2 2 2h12c1.1 0 2-0.9 2-2V2c0-1.1-0.9-2-2-2z"/>
+                                        <path d="M6.7 11.7L6 11l3.3-3.3L6 4.3 6.7 3.6l4 4-4 4.1z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-tilt>
+                    <div class="project-image" style="background-image: url('images/projects/project3.jpg')">
+                        <div class="project-overlay">
+                            <div class="project-category">AI & WEB</div>
+                            <h3>AI Assistant Platform</h3>
+                            <p>Web platform with integrated AI for business process automation and data analysis</p>
+                            <div class="project-details">
+                                <div class="project-tech">
+                                    <span data-tech="Vue.js">Vue.js</span>
+                                    <span data-tech="GPT-4">GPT-4</span>
+                                    <span data-tech="Node.js">Node.js</span>
+                                    <span data-tech="AWS">AWS</span>
+                                </div>
+                                <a href="#" class="project-link">
+                                    DETAILS
+                                    <svg width="16" height="16" viewBox="0 0 16 16">
+                                        <path d="M14 2v12H2V2h12m0-2H2C0.9 0 0 0.9 0 2v12c0 1.1 0.9 2 2 2h12c1.1 0 2-0.9 2-2V2c0-1.1-0.9-2-2-2z"/>
+                                        <path d="M6.7 11.7L6 11l3.3-3.3L6 4.3 6.7 3.6l4 4-4 4.1z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-nav reveal">
+                <button class="nav-btn active" data-filter="all">ALL</button>
+                <button class="nav-btn" data-filter="web">WEB</button>
+                <button class="nav-btn" data-filter="ai">AI</button>
+            </div>
+        </section>
+
+        <!-- Project Modal -->
+        <div class="project-modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <!-- Content will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <section id="contact" class="contact reveal">
+            <div class="contact-content">
+                <h2>START A PROJECT</h2>
+                <p class="contact-text">Let's create something extraordinary together</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="telegram-card">
+                            <div class="telegram-avatar">
+                                <img src="images/avatar.jpg" alt="Telegram Avatar">
+                            </div>
+                            <div class="telegram-info">
+                                <h3>Contact me on Telegram</h3>
+                                <p class="telegram-username">@iryawww</p>
+                            </div>
+                            <a href="https://t.me/iryawww" class="telegram-link" target="_blank">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161l-2.17 10.397c-.163.781-.631.973-1.28.606l-3.537-2.608-1.708 1.644c-.189.189-.347.347-.712.347l.254-3.612 6.576-5.942c.285-.285-.063-.446-.442-.161L8.012 13.51l-3.475-1.089c-.757-.236-.771-.757.161-1.12l13.59-5.236c.631-.236 1.183.161.974 1.096z"/>
+                                </svg>
+                                Message me
+                            </a>
+                        </div>
+                        <div class="contact-map" id="map"></div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">YOUR NAME</label>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">YOUR EMAIL</label>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">YOUR MESSAGE</label>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span>SEND</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Process Section -->
+        <section id="process" class="process reveal">
+            <h2>HOW WE WORK</h2>
+            <div class="process-timeline">
+                <div class="process-item">
+                    <div class="process-number">01</div>
+                    <h3>Research</h3>
+                    <p>Understanding your vision and goals through deep analysis</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">02</div>
+                    <h3>Strategy</h3>
+                    <p>Developing a comprehensive plan and creative direction</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">03</div>
+                    <h3>Design</h3>
+                    <p>Creating impressive visuals and user-friendly interfaces</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">04</div>
+                    <h3>Development</h3>
+                    <p>Building reliable and scalable digital solutions</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
